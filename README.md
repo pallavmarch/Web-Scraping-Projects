@@ -1,12 +1,22 @@
-# web_scraping_imdb
+# Web Scraping Projects
 
-1. Imported the necessary libraries, namely `requests` and `BeautifulSoup`.
-2. Defined the target URL as "https://www.foxnews.com/entertainment".
-3. Executed an HTTP GET request to the specified URL using the `requests.get()` function.
-4. Parsed the retrieved HTML content using BeautifulSoup. Created a BeautifulSoup object by instantiating it with the URL and specifying the 'html.parser' as the parsing method.
-5. Employed a loop to extract titles from the "Name" column.
-6. Similarly, employed another loop to retrieve information from both the "Year" and "Rate" columns.
-7. Accounted for the exception where a title, such as "One Piece," lacked a rating. Implemented exception handling for this case.
-8. Developed an additional loop to obtain values for the "Rank" column.
-9. Managed the list of top 100 movies by introducing a counter variable to keep track of iterations.
-10. Finally, constructed a concluding loop to comprehensively retrieve all data from IMDb in one go.
+Welcome to the Web Scraping Projects repository! This collection of projects demonstrates various techniques and methods for web scraping using Python. The aim is to provide practical examples and guidance for anyone interested in learning how to scrape data from websites.
+
+## Projects Included
+
+1. **IMDB Web Scraper**
+   - Description: This project scrapes movie data from the IMDB website, including details such as movie titles, ratings, genres, and release dates.
+   - File: `web-scrapping #2-imdb.py`
+
+2. **Amazon Product Scraper**
+   - Description: This scraper extracts product information from Amazon, including product names, prices and ratings.
+   - File: `amazon_web_scrape.py`
+
+3. **Generic Web Scraper**
+   - Description: A flexible web scraper that can be adapted to various websites, showcasing fundamental web scraping techniques.
+   - File: `web_scrapping.py`
+
+### Prerequisites
+
+- Python 3.x
+- Libraries: Requests, BeautifulSoup4, Pandas, Selenium (if applicable)
